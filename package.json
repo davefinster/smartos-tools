@@ -1,0 +1,24 @@
+{
+  "name": "smartos-tools",
+  "version": "0.0.1",
+  "description": "Wrapper for tools available in the SmartOS hypervisor global zone. Supports running in the global zone or connecting via SSH.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "smartos"
+  ],
+  "author": "Dave Finster <davefinster@me.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.3"
+  },
+  "dependencies": {
+    "assert-plus": "^0.1.5",
+    "debug": "2.0.0",
+    "ssh2":"0.4.9"
+  }
+}
